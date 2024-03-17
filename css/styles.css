@@ -10856,3 +10856,24 @@ html {
 .bg-custom {
   background-color: rgb(221, 218, 209);
 }
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.list-item {
+  float: left;
+  width: 33.33%; /* Adjust the width for equal columns (100% divided by number of columns) */
+  list-style: none; /* Remove default bullet points */
+  padding: 5px; /* Add spacing between list items (optional) */
+  
+}
+#dropdown-menu-width {
+  width: max(500px);
+  background-color: rgb(221, 218, 209);
+}
+.fc-white {
+  color: white;
+}
